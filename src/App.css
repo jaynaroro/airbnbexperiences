@@ -1,0 +1,95 @@
+.navbar-component{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 30px;
+    padding-block: 20px;
+    outline: solid 2px lightblue;
+    margin-bottom: 50px;
+}
+
+.heroes-component{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-photo{
+    max-width: 75%;
+    align-self: center;
+}
+
+.hero-text{
+    padding-left: 30px;
+}
+
+.hero-header{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.hero-paragraph{
+    font-size: 20px;
+    max-width: 60%;
+}
+
+.card-component{
+    outline: solid lightblue 2px;
+    width : 175px;
+    margin-left: 30px;
+    font-size: 15 px;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+    position: relative;
+}
+
+.card-list{
+    display: flex;
+    overflow: scroll;
+}
+
+.card-price{
+    margin-top: auto;
+}
+
+.card-badge{
+    position: absolute;
+    left: 6px;
+    top: 6px;
+    font-weight: bold;
+    padding: 5px 6px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+
+.profile-photo{
+    width: 100%;
+    height: 235px;
+    border-radius: 5px;
+}
+
+.profile-description{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.gray{
+    color: #918E9B;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.profile-rating{
+    display: flex;
+    align-items: center;
+}
+
+.star-logo{
+    height: 14px;
+}
+
+
+
+
